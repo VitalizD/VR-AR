@@ -8,8 +8,9 @@
 
 | Задание | Выполнение | Баллы |
 | ------ | ------ | ------ |
-| Задание 1 | # | |
+| Задание 1 | * | |
 | Задание 2 | * | |
+| Задание 3 | # | |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
@@ -92,15 +93,49 @@
 
 16.	Скачайте и установите Steam и Steam VR;
 17.	Настройте и подключите к PC ваше VR оборудование;
-18.	Вернитесь в Unity и настройте запуск проекта через SteamVR;
-20.	 Добавьте объект `Plane`;
+
+Ниже представлена последовательность действий настройки VR-оборудования через Steam VR:
+
+![](Screenshots/12.png)
+
+![](Screenshots/13.png)
+
+![](Screenshots/14.png)
+
+![](Screenshots/15.png)
+
+![](Screenshots/16.png)
+
+19.	Вернитесь в Unity и настройте запуск проекта через SteamVR;
+
+В настройка проекта во вкладке `XR Plug-in Management -> OpenXR` установили `Play Mode OpenXR Runtime` на `SteamVR`:
+
+![](Screenshots/17.png)
+
+21.	 Добавьте объект `Plane`;
 
 ![](Screenshots/11.png)
 
-22.	 Добавьте на сцену объект `XR-Orig (Action Base)`;
+22.	 Добавьте на сцену объект `XR-Origin (Action Base)`;
+
+![](Screenshots/18.png)
+
 24.	 На объект `XR Interaction Manager` создайте компонент `Input Action Manager`;
 25.	 Добавьте в `Input Action Manager` настроенный `Input System`;
-26.	 Запустите проект и убедитесь, что он воспроизводится на VR оборудовании.
+
+На объекте `XR Interaction Manager` создали компонент `Input Action Manager` и в массив `Action Assets` добавили настроенный `Input System` из директории `XR Interaction Toolkit -> 2.1.1 -> Starter Assets`:
+
+![](Screenshots/19.png)
+
+27.	 Запустите проект и убедитесь, что он воспроизводится на VR оборудовании.
+
+После запуска проекта и использования VR-шлема и контроллеров убедились, что всё работает корректно:
+
+![](Screenshots/20.png)
+
+![](Screenshots/21.png)
+
+![](Screenshots/22.png)
 
 ## Задание 2
 ### Ответьте на контрольные вопросы.
